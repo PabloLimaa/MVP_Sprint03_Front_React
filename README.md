@@ -31,6 +31,6 @@ Abra o [http://localhost:3000/#/](http://localhost:3000/#/) no navegador.
 
 ## Contato
 
-Email: pablo.henirquelima07@gmail.com
-Github: https://github.com/PabloLimaa
-Linkdin: https://www.linkedin.com/in/pablo-henrique-lima-542300164/
+- Email: pablo.henirquelima07@gmail.com
+- Github: https://github.com/PabloLimaa
+- Linkdin: https://www.linkedin.com/in/pablo-henrique-lima-542300164/
