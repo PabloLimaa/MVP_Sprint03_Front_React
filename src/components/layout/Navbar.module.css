@@ -1,0 +1,35 @@
+:root {
+    --preta-cor: #000;
+    --preta-M-cor: #001100;
+    --branca-cor: #fff;
+    --offwhite-cor: #FAF9F6;
+    --verde-cor: #556B2F;
+    --amarelo-cor: #7F6000;
+    --vermelho-cor: #7e0000;
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--preta-cor);
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.item a {
+    color: var(--offwhite-cor);
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: var(--verde-cor);
+}

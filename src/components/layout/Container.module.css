@@ -1,0 +1,31 @@
+:root {
+    --preta-cor: #000;
+    --preta-M-cor: #001100;
+    --branca-cor: #fff;
+    --offwhite-cor: #FAF9F6;
+    --verde-cor: #556B2F;
+    --amarelo-cor: #7F6000;
+    --vermelho-cor: #7e0000;
+  }
+  
+
+.Container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.min-height {
+    min-height: 75%;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+}
