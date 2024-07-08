@@ -1,0 +1,29 @@
+:root {
+    --preta-cor: #000;
+    --preta-M-cor: #001100;
+    --branca-cor: #fff;
+    --offwhite-cor: #FAF9F6;
+    --verde-cor: #556B2F;
+    --amarelo-cor: #7F6000;
+    --vermelho-cor: #7e0000;
+  }
+
+
+  .form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+
+  }
+
+  .form_control label {
+    margin-bottom: .6em;
+    font-weight: bold;
+  }
+
+  .form_control select {
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+  }
+
