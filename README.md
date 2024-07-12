@@ -16,15 +16,43 @@ Os usuários podem escolher entre diferentes serviços oferecidos, selecionar um
 2. Após clonar o repositório, é necessário ir ao diretório raiz desse projeto pelo terminal para poder executar os comandos descritos abaixo.
 
 ```
-$ npm install
+$ npx create-react-app meu_projeto01 (criar arquivo base)
+```
+Este comando instala as dependências/bibliotecas, descritas no arquivo `package.json`. Uma pasta chamada `node_modules` será criada.
+
+```
+$ cd .\nome_pasta\ (setar a pasta)
 ```
 
-Este comando instala as dependências/bibliotecas, descritas no arquivo `package.json`. Uma pasta chamada `node_modules` será criada.
+```
+$ npm install json-server (back-end fake)
+```
+
+```
+$ npm install react-icons (icones para o projeto)
+```
+
+```
+$ npm install react-router-dom (para criar as rotas)
+```
+
+```
+$ npm install uuid (criar ID)
+```
+
+```
+$ npm install react-datepicker date-fns (biblioteca para campos de data no Form)
+```
+
 
 3. Para executar a interface basta executar o comando:
 
 ```
-$ npm start
+$ npm start (show aplicação na porta web)
+```
+
+```
+$ npm run backend (para executar p banco de dados)
 ```
 
 Abra o [http://localhost:3000/#/](http://localhost:3000/#/) no navegador.
