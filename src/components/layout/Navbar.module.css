@@ -10,8 +10,9 @@
   
 .navbar {
     display: flex;
-    justify-content: space-between;
-    background-color: var(--preta-cor);
+    justify-content: start;
+    align-items: start;
+    background-color: var(--preta-M-cor);
     padding: 1em;
 }
 

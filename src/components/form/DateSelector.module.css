@@ -1,0 +1,63 @@
+
+:root {
+    --preta-cor: #000;
+    --preta-M-cor: #001100;
+    --branca-cor: #fff;
+    --offwhite-cor: #FAF9F6;
+    --verde-cor: #556B2F;
+    --amarelo-cor: #7F6000;
+    --vermelho-cor: #7e0000;
+  }
+
+/* DateSelector.module.css */
+.date_picker {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+.date_picker label {
+    padding: 1em;
+    margin-bottom: 5px;
+    color: var(--offwhite-cor);
+    font-size: 13px;
+    
+}
+
+.date_picker_input {
+    width: 150px;
+    padding: 0.5em;
+    padding-left: 37px;
+    border-radius: 5px;
+    border: 1px solid var(--verde-cor);
+    background-color: var(--preta-cor);
+    color: var(--offwhite-cor);
+    font-size: 13px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.date_picker_input:focus {
+    outline: none;
+    border-color: var(--verde-cor);
+    
+}
+
+
+/* Estilos para telas pequenas (smartphones) */
+@media only screen and (max-width: 600px) {
+    .date_picker {
+      width: 300px;
+    }  
+  
+  }
+  
+  /* Estilos para telas médias (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+  }
+  
+  /* Estilos para telas grandes (desktops) */
+  @media only screen and (min-width: 1025px) {
+    
+  }

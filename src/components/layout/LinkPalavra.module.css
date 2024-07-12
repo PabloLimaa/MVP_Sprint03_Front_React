@@ -14,14 +14,15 @@
     align-items: center;
     width: 120px;
     font-size: 13px;
-    background-color: var(--preta-M-cor);
+    background-color: var(--preta-cor);
     color: var(--offwhite-cor);
     padding: 0.5em 1em;
     text-decoration: none;
     transition: 0.5s;
+    margin-top: 15px;
   }
 
   .btn:hover {
-    background-color:var(--verde-cor);
-    color: var(--offwhite-cor);
+    background-color:var(--preta-cor);
+    color: var(--verde-cor);
   }

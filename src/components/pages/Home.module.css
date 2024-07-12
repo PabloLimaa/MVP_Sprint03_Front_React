@@ -19,7 +19,7 @@
 
 .home_container h1 {
     font-size: 2em;
-    margin-bottom: .5em;
+    margin-bottom: 2em;
 }
 
 .home_container h1 span{
@@ -29,11 +29,33 @@
 }
 
 .home_container p {
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
     color: var(--offwhite-cor);
 }
 
 .home_container img {
     width: 250px;
     margin: 2em 0;
+}
+
+/* Estilos para telas pequenas (smartphones) */
+@media only screen and (max-width: 600px) {
+    .home_container h1 {
+        font-size: 1.3em;
+    }
+    
+    .home_container p {
+        font-size: 0.9em;
+    }
+    
+}
+
+/* Estilos para telas médias (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+}
+
+/* Estilos para telas grandes (desktops) */
+@media only screen and (min-width: 1025px) {
+    
 }

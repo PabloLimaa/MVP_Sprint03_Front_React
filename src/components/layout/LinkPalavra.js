@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import styles from './LinkButton.module.css'
+import styles from './LinkPalavra.module.css'
 
-function LinkButton({to, text}) {
+function LinkPalavra({to, text}) {
     return (
         <Link className={styles.btn} to={to}>
             {text}
@@ -9,4 +9,4 @@ function LinkButton({to, text}) {
     )
 }
 
-export default LinkButton
+export default LinkPalavra

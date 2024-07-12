@@ -9,15 +9,22 @@
   }
 
   .btn {
-    background-color: var(--offwhite-cor);
-    color: var(--verde-cor);
-    padding: 0.7em 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    border: none;
+    font-size: 13px;
+    background-color: var(--preta-M-cor);
+    color: var(--offwhite-cor);
+    padding: 0.5em 1em;
     text-decoration: none;
     transition: 0.5s;
-    cursor: pointer;
-    border: none;
   }
 
   .btn:hover {
-    color: var(--vermelho-cor);
+    color: var(--offwhite-cor);
+    background-color: var(--verde-cor);
   }
+
+  

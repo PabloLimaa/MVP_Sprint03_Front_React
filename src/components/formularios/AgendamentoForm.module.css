@@ -8,36 +8,36 @@
     --vermelho-cor: #7e0000;
   }
 
-.form_control {
+  /* CSS para o contêiner pai */
+.container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  margin-bottom: 1em;
-  
+  height: 100vh;
+  background-color: var(--offwhite-cor); /* Apenas para visualização */
 }
 
-.form_control input {
-  padding: 1em;
-  border-radius: 0;
-  border: none; /* Remove todas as bordas */
-  border-bottom: 1px solid var(--verde-cor); /* Adiciona uma borda inferior */
+/* CSS para o formulário */
+.form {
+  padding: 20px;
+  margin: 2em 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--preta-M-cor);
   background-color: var(--preta-cor);
-  color: var(--offwhite-cor);
-  outline: none; /* Remove o outline padrão */
-  
-}
-
-.form_control input:focus {
-  border-bottom: 1px solid var(--verde-cor); /* Borda inferior verde quando o input está em foco */
-}
-
-.form_control Input::placeholder {
+  width: 100%;
+  max-width: 500px; /* Largura máxima do formulário */
+  box-sizing: border-box; /* Inclui padding e borda na largura total */
   color: var(--offwhite-cor);
 }
 
 /* Estilos para telas pequenas (smartphones) */
 @media only screen and (max-width: 600px) {
-  .form_control {
-    width: 300px;
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }  
 
 }

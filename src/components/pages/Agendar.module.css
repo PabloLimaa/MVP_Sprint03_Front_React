@@ -8,16 +8,21 @@
     --vermelho-cor: #7e0000;
   }
 
-  .novo_agendamento_container {
-    width: 450px;
-    margin: 0 auto;
-    padding: 3em;
-  }
+.novo_agendamento_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  margin: 2em 0;
+  padding: 3em;
+  background-color: var(--preta-M-cor);
+  
+}
 
-  .novo_agendamento_container h1 {
-    margin-bottom: 0.5em;
-  }
+.novo_agendamento_titulo {
+  margin-bottom: 0.5em;
+}
 
-  .novo_agendamento_container p {
-    color: var(--offwhite-cor);
-  }
+.novo_agendamento_container p {
+  color: var(--offwhite-cor);
+}

@@ -1,0 +1,47 @@
+{
+  "Lista_agenda": [
+    {
+      "id": "b51a",
+      "data_corte": "2024-07-12T11:02:06.489Z",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "6da7",
+      "data_corte": "2024-07-12T11:04:24.157Z",
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "Corte_options": [
+    {
+      "id": 1,
+      "name": "Máquina",
+      "valor": 50
+    },
+    {
+      "id": 2,
+      "name": "Tesoura",
+      "valor": 60
+    },
+    {
+      "id": 3,
+      "name": "Máquina e Tesoura",
+      "valor": 70
+    }
+  ],
+  "Barbeiro_options": [
+    {
+      "id": 1,
+      "name": "Yuri"
+    },
+    {
+      "id": 2,
+      "name": "Jay"
+    },
+    {
+      "id": 3,
+      "name": "Victor"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import {useNavigate} from 'react-router-dom'
+// import {useNavigate} from 'react-router-dom'
 
 import Container from './Container'
 
@@ -13,16 +13,15 @@ function Navbar() {
                 <Link to="/">
                     <img src={logo} alt='Logo'/>
                 </Link>
-                <ul className={styles.list}>
+                {/* <ul className={styles.list}>
                     <li className={styles.item}><Link to="/">Login</Link></li>
                     <li className={styles.item}><Link to="/CriarConta">Criar Conta</Link></li>
                     <li className={styles.item}><Link to="/Home">Home</Link></li>
                     <li className={styles.item}><Link to="/Agendar">Agendar</Link></li>
-                </ul>
-                
+                </ul> */}
             </Container>
         </nav>
-    ) 
+    )
 }
 
 export default Navbar

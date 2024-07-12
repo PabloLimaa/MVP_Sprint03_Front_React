@@ -24,6 +24,32 @@
   .form_control select {
     padding: .7em;
     border-radius: 0;
-    border: none;
+    border: none; /* Remove todas as bordas */
+    border-bottom: 2px solid  var(--verde-cor); /* Adiciona uma borda inferior */
+    background-color: var(--preta-cor);
+    color: var(--offwhite-cor);
+    outline: none; /* Remove o outline padrão */
   }
 
+  .form_control select:focus {
+    border-bottom: 2px solid var(--verde-cor);
+  }
+
+
+/* Estilos para telas pequenas (smartphones) */
+@media only screen and (max-width: 600px) {
+  .form_control {
+    width: 300px;
+  }  
+
+}
+
+/* Estilos para telas médias (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+/* Estilos para telas grandes (desktops) */
+@media only screen and (min-width: 1025px) {
+  
+}
