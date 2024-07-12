@@ -10,6 +10,10 @@ Os usuários podem escolher entre diferentes serviços oferecidos, selecionar um
 - React (componentização, gerenciamento de estado, props, hooks: useSate, useEffect)
 - Ambiente de execução Node.js
 
+## Protótipo da Aplicação (figma)
+
+link: https://www.figma.com/design/Cbjx1P9OplcaziSjsNshxR/App-Barbearia-Oficial?node-id=1-3&t=PB0YdMZKk09Q0wRg-1
+
 ## Como Executar o Projeto
 
 1. Será necessário ter o [Nodejs, ou o npm,](https://nodejs.org/en/download/) instalado.
